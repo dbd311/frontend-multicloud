@@ -58,10 +58,12 @@ To build the Docker image for the frontend application:
 1. Build the Docker image:
     docker build -t frontend:latest .
 
-2. Run the Docker container locally:
+    Deploy on a local machine (optional)
+    If you want to deploy the frontend on your dev machine:
+    
     docker run -p 80:80 frontend:latest
 
-3. Open your browser and navigate to http://localhost:80 to view the application.
+    Open your browser and navigate to http://localhost:80 to view the application.
 
 ## Deploying to Kubernetes
 
