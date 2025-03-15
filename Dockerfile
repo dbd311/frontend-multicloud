@@ -17,7 +17,7 @@ COPY src .
 # compile index.js and other components into static files 
 RUN npm run build
 # Outcome:
-#build/
+#/app/build/
 #    ├── index.html
 #    ├── static/
 #    │   ├── js/
