@@ -14,18 +14,18 @@ This repository contains the source code and configuration files for the fronten
 ---
 
 ## Project Structure
-.
-├── src/ # Source code for the React application
-├── .dockerignore # Files to ignore when building the Docker image
-├── Dockerfile # Dockerfile for building the frontend image
-├── frontend-configMap.yaml # Kubernetes ConfigMap for frontend configuration
-├── frontend-deployment.yaml # Kubernetes Deployment for the frontend
-├── frontend-ingress.yaml # Kubernetes Ingress for routing traffic to the frontend
-├── frontend-service.yaml # Kubernetes Service for exposing the frontend
-├── nginx.conf # Nginx configuration file
-├── package.json # Node.js dependencies and scripts
-└── README.md # Project documentation
-
+.<br>
+├── src/ # Source code for the React application<br>
+├── .dockerignore # Files to ignore when building the Docker image<br>
+├── Dockerfile # Dockerfile for building the frontend image<br>
+├── frontend-configMap.yaml # Kubernetes ConfigMap for frontend configuration<br>
+├── frontend-deployment.yaml # Kubernetes Deployment for the frontend<br>
+├── frontend-ingress.yaml # Kubernetes Ingress for routing traffic to the frontend<br>
+├── frontend-service.yaml # Kubernetes Service for exposing the frontend<br>
+├── nginx.conf # Nginx configuration file<br>
+├── package.json # Node.js dependencies and scripts<br>
+└── README.md # Project documentation<br>
+<br>
 
 ---
 
