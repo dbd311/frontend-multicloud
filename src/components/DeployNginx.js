@@ -20,7 +20,7 @@ function DeployNginx() {
   // Handle login
   const handleLogin = async () => {
     try {
-      const response = await axios.post('http://backend.multicloudplatform.com:5000/login', {
+      const response = await axios.post('http://backend.multicloudplatform.com/login', {
         username,
         password,
       });
@@ -55,7 +55,7 @@ function DeployNginx() {
     setError(''); // Clear any previous errors
 
     try {
-      const response = await axios.post('http://backend.multicloudplatform.com:5000/deploy', {
+      const response = await axios.post('http://backend.multicloudplatform.com/deploy', {
         cloud_provider: cloudProvider,
         domain: domain,
       });
